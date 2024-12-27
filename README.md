@@ -60,3 +60,12 @@ org.example.TestDemo1#test9
 org.example.TestDemo1#test10
 
 ![image-20241227155118801](README.assets/image-20241227155118801.png)
+
+## activation-group 属性
+
+分支： attributes-activation-group
+
+org.example.TestDemo1#test11
+
+![image-20241227155348295](README.assets/image-20241227155348295.png)
+
