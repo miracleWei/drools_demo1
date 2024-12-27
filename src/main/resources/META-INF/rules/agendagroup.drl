@@ -24,7 +24,7 @@ end
 
 rule "rule_agendagroup_4"
     agenda-group "myagendagroup_2"
-    auto-focus true //自动获取焦点
+//    auto-focus true //自动获取焦点
     when
     then
         System.out.println("规则rule_agendagroup_4触发");
