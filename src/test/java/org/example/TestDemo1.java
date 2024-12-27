@@ -228,5 +228,22 @@ public class TestDemo1 {
         kieSession.dispose();
     }
 
+    /**
+     * agenda-group属性为议程分组，属于另一种可控的规则执行方式。用户可以通过设置agenda-group来控制规则的执行，只有获取焦点的组中的规则才会被触发。
+     */
+    @Test
+    public void test12() {
+        KieServices kieServices = KieServices.Factory.get();
+        KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
+        KieSession kieSession = kieClasspathContainer.newKieSession();
+
+        //设置焦点，对应agenda-group分组中的规则才可能被触发
+        kieSession.getAgenda().getAgendaGroup("myagendagroup_1").setFocus();
+
+        kieSession.fireAllRules();
+        kieSession.dispose();
+
+    }
+
 
 }

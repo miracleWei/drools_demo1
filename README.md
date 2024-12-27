@@ -69,3 +69,10 @@ org.example.TestDemo1#test11
 
 ![image-20241227155348295](README.assets/image-20241227155348295.png)
 
+## agenda-group 属性
+
+分支： attributes-agenda-group
+
+org.example.TestDemo1#test12
+
+![image-20241227155711992](README.assets/image-20241227155711992.png)
