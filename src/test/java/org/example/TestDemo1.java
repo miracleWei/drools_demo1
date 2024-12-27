@@ -245,5 +245,14 @@ public class TestDemo1 {
 
     }
 
+    @Test
+    public void test13() {
+        KieServices kieServices = KieServices.Factory.get();
+        KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
+        KieSession kieSession = kieClasspathContainer.newKieSession();
+        kieSession.fireAllRules();
+        kieSession.dispose();
+    }
+
 
 }

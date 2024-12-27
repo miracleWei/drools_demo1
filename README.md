@@ -76,3 +76,11 @@ org.example.TestDemo1#test11
 org.example.TestDemo1#test12
 
 ![image-20241227155711992](README.assets/image-20241227155711992.png)
+
+## auto-focus 属性
+
+分支： attributes-auto-focus
+
+org.example.TestDemo1#test13
+
+![image-20241227160214668](README.assets/image-20241227160214668.png)
