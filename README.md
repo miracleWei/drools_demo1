@@ -92,3 +92,11 @@ org.example.TestDemo1#test13
 org.example.TestDemo1#test14
 
 ![image-20241227160638469](README.assets/image-20241227160638469.png)
+
+## date-effective 属性
+
+分支： attributes-date-effective
+
+org.example.TestDemo1#test15
+
+![image-20241227160922774](README.assets/image-20241227160922774.png)
