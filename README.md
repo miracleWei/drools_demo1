@@ -33,3 +33,13 @@ org.example.TestDemo1#test6
 org.example.TestDemo1#test7
 
 ![image-20241227153347885](README.assets/image-20241227153347885.png)
+
+
+
+## enabled 属性
+
+分支： attributes-enabled
+
+org.example.TestDemo1#test8
+
+![image-20241227154149258](README.assets/image-20241227154149258.png)

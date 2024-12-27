@@ -168,4 +168,25 @@ public class TestDemo1 {
 
     }
 
+
+    @Test
+    public void test8() {
+        KieServices kieServices = KieServices.Factory.get();
+        KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
+        KieSession kieSession = kieClasspathContainer.newKieSession();
+
+        ComparisonOperatorEntity comparisonOperatorEntity = new ComparisonOperatorEntity();
+        comparisonOperatorEntity.setNames("张三");
+        List<String> list = new ArrayList<String>();
+        list.add("张三");
+        list.add("李四");
+        comparisonOperatorEntity.setList(list);
+
+        //将数据提供给规则引擎，规则引擎会根据提供的数据进行规则匹配，如果规则匹配成功则执行规则
+        kieSession.insert(comparisonOperatorEntity);
+
+        kieSession.fireAllRules();
+        kieSession.dispose();
+    }
+
 }
