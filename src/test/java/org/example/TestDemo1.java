@@ -216,6 +216,9 @@ public class TestDemo1 {
         kieSession.dispose();
     }
 
+    /**
+     * activation-group属性是指激活分组，取值为String类型。具有相同分组名称的规则只能有一个规则被触发。
+     */
     @Test
     public void test11() {
         KieServices kieServices = KieServices.Factory.get();
