@@ -135,4 +135,20 @@ public class TestDemo1 {
 
     }
 
+    @Test
+    public void test6() {
+        KieServices kieServices = KieServices.Factory.get();
+        KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
+        KieSession kieSession = kieClasspathContainer.newKieSession();
+
+        Student student = new Student();
+        student.setAge(10);
+
+        //将数据提供给规则引擎，规则引擎会根据提供的数据进行规则匹配，如果规则匹配成功则执行规则
+        kieSession.insert(student);
+
+        kieSession.fireAllRules();
+        kieSession.dispose();
+    }
+
 }

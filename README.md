@@ -14,3 +14,12 @@ Drools基础语法 https://easen.blog.csdn.net/article/details/134739436
 
 org.example.TestDemo1#test5
 
+
+
+## insert 方法
+
+分支： dev-insert
+
+org.example.TestDemo1#test6
+
+![image-20241227153102041](README.assets/image-20241227153102041.png)
