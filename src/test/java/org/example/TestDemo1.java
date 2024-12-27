@@ -254,5 +254,24 @@ public class TestDemo1 {
         kieSession.dispose();
     }
 
+    @Test
+    public void test14() throws InterruptedException {
+        KieServices kieServices = KieServices.Factory.get();
+        KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
+        final KieSession kieSession = kieClasspathContainer.newKieSession();
+
+        new Thread(new Runnable() {
+            public void run() {
+                //启动规则引擎进行规则匹配，直到调用halt方法才结束规则引擎
+                kieSession.fireUntilHalt();
+            }
+        }).start();
+
+        Thread.sleep(10000);
+        //结束规则引擎
+        kieSession.halt();
+        kieSession.dispose();
+
+    }
 
 }

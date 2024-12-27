@@ -84,3 +84,11 @@ org.example.TestDemo1#test12
 org.example.TestDemo1#test13
 
 ![image-20241227160214668](README.assets/image-20241227160214668.png)
+
+## timer 属性
+
+分支： attributes-timer
+
+org.example.TestDemo1#test14
+
+![image-20241227160638469](README.assets/image-20241227160638469.png)
