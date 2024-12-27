@@ -23,3 +23,13 @@ org.example.TestDemo1#test5
 org.example.TestDemo1#test6
 
 ![image-20241227153102041](README.assets/image-20241227153102041.png)
+
+
+
+## retract 方法
+
+分支： dev-retract
+
+org.example.TestDemo1#test7
+
+![image-20241227153347885](README.assets/image-20241227153347885.png)
