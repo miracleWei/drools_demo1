@@ -43,3 +43,12 @@ org.example.TestDemo1#test7
 org.example.TestDemo1#test8
 
 ![image-20241227154149258](README.assets/image-20241227154149258.png)
+
+
+## salience 属性
+
+分支： attributes-salience
+
+org.example.TestDemo1#test9
+
+![image-20241227154635015](README.assets/image-20241227154635015.png)
