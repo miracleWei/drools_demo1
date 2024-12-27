@@ -52,3 +52,11 @@ org.example.TestDemo1#test8
 org.example.TestDemo1#test9
 
 ![image-20241227154635015](README.assets/image-20241227154635015.png)
+
+## no-loop 属性
+
+分支： attributes-no-loop
+
+org.example.TestDemo1#test10
+
+![image-20241227155118801](README.assets/image-20241227155118801.png)
