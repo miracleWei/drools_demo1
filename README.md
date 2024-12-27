@@ -14,3 +14,4 @@ Drools基础语法 https://easen.blog.csdn.net/article/details/134739436
 
 org.example.TestDemo1#test5
 
+![image-20241227153449634](README.assets/image-20241227153449634.png)
