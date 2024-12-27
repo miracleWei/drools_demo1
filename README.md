@@ -100,3 +100,11 @@ org.example.TestDemo1#test14
 org.example.TestDemo1#test15
 
 ![image-20241227160922774](README.assets/image-20241227160922774.png)
+
+## date-expires 属性
+
+分支： attributes-date-expires
+
+org.example.TestDemo1#test16
+
+![image-20241227161211417](README.assets/image-20241227161211417.png)

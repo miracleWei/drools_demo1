@@ -285,4 +285,18 @@ public class TestDemo1 {
         kieSession.dispose();
     }
 
+    @Test
+    public void test16() {
+        //设置日期格式
+        System.setProperty("drools.dateformat","yyyy-MM-dd HH:mm");
+        KieServices kieServices = KieServices.Factory.get();
+        KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
+        KieSession kieSession = kieClasspathContainer.newKieSession();
+        kieSession.fireAllRules();
+        kieSession.dispose();
+
+    }
+
+
+
 }
